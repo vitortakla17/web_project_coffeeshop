@@ -104,39 +104,6 @@ line-height: 20px;
   height: 568px;
 }
 
-/* MINHA SOLUCAO: */
-/* .header__footer {
-  margin-top: auto;
-  font-family: "Inter", Arial, Helvetica, sans-serif;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 20px;
-  color: #838383;
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-}
-
-.header__times {
-  margin: 0;margin: 0;
-  position: relative;
-  left: 80px;
-  bottom: 40px;
-}
-
-.header__times-item {
-  margin: 0;
-}
-
-.header__paragraph {
-  margin: 0;
-  position: relative;
-  bottom: 40px;
-  right: 80px;
-} */
-
-
-/* SISTEMA: */
 .header__footer {
   margin-top: auto;
   font-family: "Inter", Arial, Helvetica, sans-serif;
@@ -149,12 +116,20 @@ line-height: 20px;
   justify-content: space-between;
 }
 
-
 .header__paragraph {
   margin: 0;
-  padding: 0 0 0 80px;
 }
 
+.header__paragraph-left {
+  position: relative;
+  bottom: 40px;
+  left: 80px;
+}
+
+.header__paragraph-right {
+  position: relative;
+  right: 40px;
+}
 
 .recepies {
   background-image: url(../images/background_recipes.svg);
