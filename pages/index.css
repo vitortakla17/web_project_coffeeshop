@@ -1,3 +1,9 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 html {
   scroll-behavior: smooth;
 }
@@ -99,7 +105,7 @@ line-height: 20px;
 }
 
 /* MINHA SOLUCAO: */
-.header__footer {
+/* .header__footer {
   margin-top: auto;
   font-family: "Inter", Arial, Helvetica, sans-serif;
   font-weight: 500;
@@ -112,7 +118,7 @@ line-height: 20px;
 }
 
 .header__times {
-  margin: 0;
+  margin: 0;margin: 0;
   position: relative;
   left: 80px;
   bottom: 40px;
@@ -123,15 +129,15 @@ line-height: 20px;
 }
 
 .header__paragraph {
+  margin: 0;
   position: relative;
   bottom: 40px;
   right: 80px;
-  margin: auto 0 0;
-}
+} */
 
 
 /* SISTEMA: */
-/* .header__footer {
+.header__footer {
   margin-top: auto;
   font-family: "Inter", Arial, Helvetica, sans-serif;
   font-weight: 500;
@@ -139,12 +145,15 @@ line-height: 20px;
   line-height: 20px;
   color: #838383;
   width: 100%;
+  display: flex;
+  justify-content: space-between;
 }
 
 
 .header__paragraph {
   margin: 0;
-} */
+  padding: 0 0 0 80px;
+}
 
 
 .recepies {
