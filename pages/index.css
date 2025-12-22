@@ -98,6 +98,7 @@ line-height: 20px;
   height: 568px;
 }
 
+/* MINHA SOLUCAO: */
 .header__footer {
   margin-top: auto;
   font-family: "Inter", Arial, Helvetica, sans-serif;
@@ -128,10 +129,23 @@ line-height: 20px;
   margin: auto 0 0;
 }
 
-/* .content {
-  margin-top: 0;
-  padding-top: 0;
+
+/* SISTEMA: */
+/* .header__footer {
+  margin-top: auto;
+  font-family: "Inter", Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #838383;
+  width: 100%;
+}
+
+
+.header__paragraph {
+  margin: 0;
 } */
+
 
 .recepies {
   background-image: url(../images/background_recipes.svg);
@@ -141,7 +155,6 @@ line-height: 20px;
   background-color: #0a2750;
   height: 100vh;
   color: #FFFFFF;
-  /* padding: 100px 0 0 80px; */
 }
 
 .recepies__title {
