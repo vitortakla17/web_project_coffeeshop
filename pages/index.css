@@ -205,6 +205,11 @@ line-height: 20px;
 }
 .reservation__title {
   padding: 100px 0 0;
+  font-family: "Inter", Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 52px;
 }
 
 .reservation__form {
@@ -219,14 +224,37 @@ line-height: 20px;
   max-width: 385px;
 }
 
-.form__label {}
+.form__label {
+  font-family: "Inter", Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+}
 
 .form__input {
   border-radius: 4px;
+  font-family: "Inter", Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
 }
+
+input::placeholder {
+  color: #838383;
+}
+
 .form__button {
   border-radius: 4px;
   max-width: 385px;
+  font-family: "Inter", Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  background-color: #2f80ed;
+  color: #FFFFFF;
 }
 .form__button:hover {
   opacity: 70%;
