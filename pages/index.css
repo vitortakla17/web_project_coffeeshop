@@ -216,6 +216,7 @@ line-height: 20px;
 .form__fieldset {
   display: flex;
   flex-direction: column;
+  max-width: 385px;
 }
 
 .form__label {}
@@ -225,6 +226,7 @@ line-height: 20px;
 }
 .form__button {
   border-radius: 4px;
+  max-width: 385px;
 }
 .form__button:hover {
   opacity: 70%;
@@ -233,3 +235,7 @@ line-height: 20px;
 .form__checkbox {
   border-radius: 2px;
 }
+/* .form__label_checkbox {
+  display: flex;
+  justify-content: space-between;
+} */
