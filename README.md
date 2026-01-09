@@ -8,3 +8,5 @@ Tambem foi aplicado incorporacao de conteudo e formularios. Alem disso, os arqui
 - HTML5 semântico
 - Flexbox
 - Posicionamento
+
+### GITHUB PAGES: https://vitortakla17.github.io/web_project_coffeeshop/
